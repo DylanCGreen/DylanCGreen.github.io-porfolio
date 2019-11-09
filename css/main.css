@@ -169,6 +169,7 @@ textarea {
 #article_body {
   padding-right: 24px;
   padding-left: 24px;
+
 }
 #callout_one, #callout_two, #callout_three {
   float: left;
@@ -182,6 +183,11 @@ textarea {
 }
 #footer {
   margin-top: 600px;
+}
+#about_footer {
+  text-align: center;
+  height: 120px;
+  clear: both;
 }
 /* ==========================================================================
    Helper classes

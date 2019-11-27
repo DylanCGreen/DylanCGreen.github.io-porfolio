@@ -111,33 +111,28 @@ textarea {
 }
 #masthead {
   clear: both;
-  position: relative;
-  text-align: center;
-  color: white;
+
   background-size: cover;
   background-position: center;
   height: 64px;
   line-height: 64px;
   margin-bottom: 10px;
 }
-#hero-text {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  color: white;
-}
 #masthead_landing {
   clear: both;
-
+  position: relative;
+  text-align: center;
+  color: darkblue;
   background-size: cover;
   background-position: center;
   height: 366px;
   line-height: 366px;
   margin-bottom: 10px;
 }
-#masthead h1 {
-  margin: 0px;
-  padding: 0px;
+#hero-text {
+  position: absolute;
+  bottom: 100px;
+  left: 16px;
 }
 #primary_links {
   float: right;

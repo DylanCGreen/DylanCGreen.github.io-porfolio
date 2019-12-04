@@ -97,6 +97,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background: dimgray;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn.btn-primary {
+  text-align: center;
+  display: block;
+  vertical-align: bottom;
+}
+.btn-prmary {
+  background: black;
+  border-color: black;
+  color: white;
+}
+.btn-primary:hover {
+  background: #646464;
+  border-color: #646464;
+}
+
 #wrapper {
   width: 960px;
   margin-left: auto;
@@ -109,6 +137,10 @@ textarea {
 #logo {
   float: left;
 }
+.active {
+
+}
+
 #masthead {
   clear: both;
 
@@ -122,7 +154,7 @@ textarea {
   clear: both;
   position: relative;
   text-align: center;
-  color: darkblue;
+  color: white;
   background-size: cover;
   background-position: center;
   height: 366px;
@@ -151,7 +183,7 @@ textarea {
 }
 #content_landing {
   width: 100%;
-  position: sticky;
+  position: static;
   top: 0;
 }
 #sidebar {
